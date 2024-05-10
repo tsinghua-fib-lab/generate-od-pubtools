@@ -12,7 +12,7 @@ setuptools.setup(
     description="A tool to generate origin-destination matrix for any given area.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    # url="https://github.com/",
+    url="https://github.com/tsinghua-fib-lab/generate-od-pubtools",
     packages=setuptools.find_packages(),
 
     classifiers=[
@@ -21,14 +21,11 @@ setuptools.setup(
         "Operating System :: OS Independent",
 
         'Intended Audience :: Science/Research',
-        'Intended Audience :: Developers',\
+        'Intended Audience :: Developers',
         
+        'Topic :: Scientific/Engineering',
         'Topic :: Scientific/Engineering :: GIS',
-        'Topic :: Scientific/Engineering :: Urban Science',
-        'Topic :: Scientific/Engineering :: Computer Science',
-        'Topic :: Scientific/Engineering :: Urban Planning',
-        'Topic :: Scientific/Engineering :: Transportation',
-        'Topic :: Scientific/Engineering :: Urban Evironment',
+        'Topic :: Scientific/Engineering :: Artificial Intelligence'
     ],
 
     install_requires=[
