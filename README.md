@@ -9,7 +9,7 @@ The following code can be used to automatically obtain **Population Count** (fro
     if __name__ == "__main__":
     
         my_generator = generator.Generator()
-        my_generator.set_satetoken("xxxxxxxxxxxxxxx")
+        my_generator.set_satetoken("xxxxxxxxxxxxxxx") # for World_Imagery, applied from ArcGIS
     
         area = gpd.read_file("London.shp")
         my_generator.load_area(area)
