@@ -1,5 +1,5 @@
 # Generate Origin-destination Matrix based-on Public Available Information on the Internet
-The following code can be used to automatically obtain **Population Count** (from WorldPop [https://hub-worldpop.opendata.arcgis.com/]) and **satellite imagery** (World_Imagery [https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9]) for a given area divided by several regions. Based on this information, it can generate the origin-destination (OD) matrix between regions using a graph denoising diffusion model.
+The following code can be used to automatically obtain **Population Count** (from WorldPop [https://hub-worldpop.opendata.arcgis.com/]) and **Satellite Imagery** (World_Imagery [https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9]) for a given area divided by several regions. Based on this information, it can generate the origin-destination (OD) matrix between regions using a graph denoising diffusion model.
 
 ### Use case
 
