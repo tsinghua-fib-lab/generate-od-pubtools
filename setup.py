@@ -37,7 +37,7 @@ setuptools.setup(
         'Pillow',
         'scipy',
         'shapely',
-        'scikit-learn',
+        'scikit-learn==1.3.0',
         'contextily',
         'matplotlib',
         'rasterio'
